@@ -1,6 +1,6 @@
 # 🎮 Tic Tac Toe Game
 
-This is a simple **Tic Tac Toe** game built using [mention your tech stack, e.g., HTML/CSS/JavaScript or Python or Java].
+This is a simple **Tic Tac Toe** game built using HTML,CSS,JavaScript.
 
 ---
 
