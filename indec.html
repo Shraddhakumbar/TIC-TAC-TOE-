@@ -1,0 +1,136 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe Game</title>
+    <style>
+        *{
+            background-color: rgb(255, 255, 255);  
+        }
+
+    
+        .cont{
+            height:544px;
+            width: 544px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+           align-items: center;
+           justify-content: center;
+           gap:14px;
+           margin: auto;
+        }
+
+
+        .box{
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           background-color: rgb(26, 217, 42);
+          height: 160px;
+           width: 160px;
+           border-radius: 2rem;
+           border: none;
+           font-size: 70px;
+           color:black ;
+        }
+        .winnerbox{
+            width:90%;
+            height: 99%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: auto;
+        }
+        #reset
+            {
+               margin: 25px 400px 23px 550px;
+                width: 152px;
+    height: 52px;
+    background-color: rgb(206, 52, 195);
+    color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+    text-align: center;
+    font-size: 22px;
+            }
+            
+            #reset:hover{
+                background-color: rgb(71, 174, 234);
+            }
+
+           #newgame-btn{
+                margin: auto;
+                width: 200px;
+    height: 100px;
+    background-color: rgb(94, 131, 223);
+    color: #121010;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+    text-align: center;
+    font-size: 22px;
+
+            }
+            #newgame-btn:hover{
+                 background-color: rgb(137, 201, 239);
+            }
+
+            .hide{
+                display: none;
+                
+            }
+         .head{
+            font-size:50px;
+            font-weight: bolder;
+                margin: auto;
+                font-size:50px;
+              
+            }
+            .winner{
+                font-size:80px;
+                font-weight: bolder;
+            }
+            
+
+           
+
+       
+    </style>
+</head>
+<body>
+    <main>
+        
+        <div class="winnerbox hide">
+        <p class="winner">Winner</p>
+        <button id="newgame-btn">New Game</button>
+        
+    </div>
+
+    <div class="head">Tic-Tac-Toe</div>
+    <div class="cont">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+    </div>
+    
+   
+    <button id="reset">Reset Game</button>
+</main>
+<script src="script.js"></script>
+    
+</body>
+</html>
